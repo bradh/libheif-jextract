@@ -87,6 +87,8 @@ Note: Some input files use preview features of Java SE 21.
 Note: Recompile with -Xlint:preview for details.
 ```
 
+## Run
+
 1. Run run.sh with some sample file. 
 
 ```
