@@ -2,18 +2,18 @@
 
 ## Overview
 
-This demonstrates how to use (libheif)[https://github.com/strukturag/libheif] in Java 21 or later.
+This demonstrates how to use [libheif](https://github.com/strukturag/libheif) in Java 21 or later.
 
-It relies on the (jextract)[https://github.com/openjdk/jextract] tool and the (Foreign Function and
-Memory API)[https://openjdk.org/jeps/442]. It won't work with earlier versions of Java.
+It relies on the [jextract](https://github.com/openjdk/jextract) tool and the [Foreign Function and
+Memory API](https://openjdk.org/jeps/442). It won't work with earlier versions of Java.
 
 ## Setup
 
 1. Start with Linux
 1. Install Java 21
 1. Clone this repo
-1. Extract or link the jextract tool into the repo checkout. Use the (pre-built binaries)[https://jdk.java.net/jextract/]
-1. Clone (libheif)[https://github.com/strukturag/libheif] into the repo checkout.
+1. Extract or link the jextract tool into the repo checkout. Use the [pre-built binaries](https://jdk.java.net/jextract/)
+1. Clone [libheif](https://github.com/strukturag/libheif) into the repo checkout.
 
 At this point you should have a directory tree that looks like this
 
@@ -371,7 +371,7 @@ If any of that does not work, consult the jextract documentation, and update the
 
 ## License
 
-This code is covered by the same (license as libheif)[https://github.com/strukturag/libheif/blob/master/COPYING].
+This code is covered by the same [license as libheif](https://github.com/strukturag/libheif/blob/master/COPYING).
 The `heifdemo.java` content is considered sample code.
 
 ## Support
