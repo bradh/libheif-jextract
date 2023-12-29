@@ -17,7 +17,7 @@ Memory API](https://openjdk.org/jeps/442). It won't work with earlier versions o
 
 At this point you should have a directory tree that looks like this
 
-```
+```txt
 .
 ├── build.sh
 ├── heifdemo.java
@@ -77,7 +77,8 @@ At this point you should have a directory tree that looks like this
 1. Build libheif. See libheif/README.md in your tree for more instructions
 
 1. Run build.sh. The results of that should look like this:
-```
+
+```txt
 WARNING: A restricted method in java.lang.foreign.AddressLayout has been called
 WARNING: java.lang.foreign.AddressLayout::withTargetLayout has been called by module org.openjdk.jextract
 WARNING: Use --enable-native-access=org.openjdk.jextract to avoid a warning for this module
@@ -91,13 +92,13 @@ Note: Recompile with -Xlint:preview for details.
 
 1. Run run.sh with some sample file. 
 
-```
+```sh
 bash ./run.sh libheif/examples/example.heic
 ```
 
 The results of that should look like:
 
-```
+```txt
 Note: heifdemo.java uses preview features of Java SE 21.
 Note: Recompile with -Xlint:preview for details.
 -- Starting HeifDemo --
